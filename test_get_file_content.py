@@ -1,5 +1,6 @@
 from functions.get_file_content import get_file_content
 
+
 print(len(get_file_content("calculator", "lorem.txt")))
 print(get_file_content("calculator", "lorem.txt").endswith('[...File "lorem.txt" truncated at 10000 characters]'))
 print(get_file_content("calculator", "main.py"))
